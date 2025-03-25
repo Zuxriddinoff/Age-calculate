@@ -1,0 +1,42 @@
+*{
+    font-family: "KG Miss Kindy", cursive;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+#input{
+    margin: 10px;
+    width: 270px;
+    padding: 7px;
+    border-radius: 7px;
+    border: 3px black solid;
+}
+input:hover {
+    border-color: blue;
+    background-color: lightgray;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#button{
+    color: white;
+    background-color: #525252;
+    width: 290px;
+    padding: 10px;
+    border-radius: 7px;
+}
+button:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#label{
+    position: relative;
+    right: 60px;
+}
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
